@@ -54,8 +54,8 @@ echo "================================"
 echo "================================"
 
 # Tests 10 concurrent clients for 10000 requests
-echo "TESTING 5000 REQUESTS"
-echo "TESTING 5000 REQUESTS" >> load_test_report.txt
+echo "TESTING 10000 REQUESTS"
+echo "TESTING 10000 REQUESTS" >> load_test_report.txt
 loadtest http://localhost:9001/ -t 20 -c 10 -k -n 10000 >> load_test_report.txt
 echo "================================"
 echo "================================"
