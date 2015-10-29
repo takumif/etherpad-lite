@@ -18,7 +18,7 @@ Windows:
 Hopefully the same thing except you use the command prompt. I hope windows users can run .sh files. 
 
 
-REQUIREMENTS PERFORMANCE TESTS
+REQUIREMENTS FOR PERFORMANCE TESTS
 ===============================
 
 1.) The PerfTest requires Python 2.7 installed such that a python file can be executed with "python <filename>"
